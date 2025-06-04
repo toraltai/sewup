@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  frontend:
+    build:
+      context: ./sewup-frontend-app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./sewup-frontend-app:/app
+      - /app/node_modules
+    command: npm run dev
+
+ 
