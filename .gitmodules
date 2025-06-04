@@ -1,0 +1,6 @@
+[submodule "sewup-frontend-app"]
+	path = sewup-frontend-app
+	url = git@github.com:toraltai/sewup-frontend-app.git
+[submodule "sewup-backend-app"]
+	path = sewup-backend-app
+	url = git@github.com:toraltai/sewup-backend-app.git
